@@ -4,11 +4,11 @@ This repository records my journey through the [100 Days of Code: The Complete P
 
 ## Learning Motivation
 Although I already have some experience with Python, I'm taking this course to:
-* Deepen my Python knowledge and skills
-* Gather some practical project ideas
-* Practice Git version control
-* Develop good coding habits and workflows
-* Prepare myself for future development work
+- Deepen my Python knowledge and skills
+- Gather some practical project ideas
+- Practice Git version control
+- Develop good coding habits and workflows
+- Prepare myself for future development work
 
 ## Course Overview
 - Instructor: Dr. Angela Yu
@@ -17,7 +17,8 @@ Although I already have some experience with Python, I'm taking this course to:
 ## Project List
 | Day | Project Name | Concepts Learned | Status |
 |-----|-------------|-----------------|--------|
-| 1 | [Band Name Generator](./Day-001-BandNameGenerator) | Variables, Input/Output | ✅ |
+| 1 | [Band Name Generator](./day_001_band_name_generator/) | Variables, Input/Output | ✅ |
+| 2 | [Tip Calculator](./day_002_tip_calculator/) | Numerical operations, Input handling, String formatting | ✅ | 
 <!-- | ... | ... | ... | ... | -->
 
 Click on each project name to access its directory and code.
