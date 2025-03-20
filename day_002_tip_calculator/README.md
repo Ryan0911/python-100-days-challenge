@@ -8,7 +8,7 @@ Python Version: 3.8.15
 Operating System: MacOS (14.2.1（23C71）)
 
 ## How to use
-Run the script in the terminal: ```python /main.py```
+Run the script in the terminal: ```python main.py```
 
 ## Demo
 Below is an example interaction with the program:
