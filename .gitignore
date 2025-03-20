@@ -1,3 +1,4 @@
 .DS_STORE
-.venv
-.template
+venv
+template
+__pycache__
