@@ -1,4 +1,4 @@
-# pylint: disable=C0114, C0301
+# pylint: disable=C0114, C0301, W0621
 import sys
 import time
 from art import ArtHelper
