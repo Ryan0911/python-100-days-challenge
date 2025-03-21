@@ -4,15 +4,15 @@ from enum import IntEnum
 
 class Choice(IntEnum):
     """Enumeration for RPS game choices"""
-    ROCK = 1
-    PAPER = 2
-    SCISSORS = 3
+    ROCK = 0
+    PAPER = 1
+    SCISSORS = 2
 
 class Result(IntEnum):
     """Enumeration for RPS game results"""
-    DRAW = 1
-    COMPUTER_WINS = 2
-    PLAYER_WINS = 3
+    DRAW = 0
+    COMPUTER_WINS = 1
+    PLAYER_WINS = 2
 
 class RpsGame:
     """
@@ -31,12 +31,12 @@ class RpsGame:
         Get the game result between player and computer.
         
         Args:
-            player_choice (int): Player's selection (1=rock, 2=paper, 3=scissors)
+            player_choice (int): Player's selection (0=rock, 1=paper, 2=scissors)
             
          Returns:
             tuple: (result, computer_choice) where:
-                - result: 1 if draw, 2 if computer wins, 3 if player wins
-                - computer_choice: The computer's selection (1=rock, 2=paper, 3=scissors)
+                - result: 0 if draw, 1 if computer wins, 2 if player wins
+                - computer_choice: The computer's selection (0=rock, 1=paper, 2=scissors)
         """
         computer_choice = self.__make_choice()
 
@@ -50,6 +50,6 @@ class RpsGame:
         ]
 
         if (computer_choice, player_choice) in computer_wins:
-            return Result.COMPUTER_WINS
+            return Result.COMPUTER_WINS, computer_choice
 
-        return Result.PLAYER_WINS
+        return Result.PLAYER_WINS, computer_choice
