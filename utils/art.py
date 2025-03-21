@@ -1,7 +1,13 @@
+# pylint: disable=C0114, C0116
 class ArtHelper:
+    """A helper class for printing ASCII art objects.
+    
+    This class provides functionality to display various ASCII art
+    elements for visual enhancement in console applications.
+    """
     def __init__(self):
         pass
-    
+
     @staticmethod
     def treasure_start():
         print(r'''
@@ -278,7 +284,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
     @staticmethod
     def rock():
-        print("""
+        print(r"""
     _______
 ---'   ____)
       (_____)
@@ -288,21 +294,21 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 """)
     @staticmethod
     def paper():
-        print("""
-            _______
-        ---'    ____)____
-                ______)
-                _______)
-                _______)
-        ---.__________)
-        """)
+        print(r"""
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+""")
     @staticmethod
     def scissors():
-        print("""
-            _______
-        ---'   ____)____
-                ______)
-            __________)
-            (____)
-        ---.__(___)
-        """)
+        print(r"""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+""")
