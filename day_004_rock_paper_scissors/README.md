@@ -20,3 +20,4 @@ python main.py
 Here are some great resources for finding ASCII art to make your terminal more interesting:
 - [Emoji Combos](https://emojicombos.com)
 - [ASCII ART](https://ascii.co.uk/art)
+- [RPS_ASCII_Art](https://gist.github.com/wynand1004/b5c521ea8392e9c6bfe101b025c39abe)
