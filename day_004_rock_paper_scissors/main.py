@@ -29,7 +29,7 @@ print("Computer chose:")
 display[computer_choice]()
 
 if result == Result.DRAW:
-    print("DRAW")
+    print("It's a Draw!")
 elif result == Result.COMPUTER_WINS:
     print("You Lose!")
 elif result == Result.PLAYER_WINS:
