@@ -20,7 +20,8 @@ Although I already have some experience with Python, I'm taking this course to:
 | 1 | [Band Name Generator](./day_001_band_name_generator/) | Variables, Input/Output | ✅ |
 | 2 | [Tip Calculator](./day_002_tip_calculator/) | Numerical operations, Input handling, String formatting | ✅ | 
 | 3 | [Treasure Island](./day_003_treasure_island/) | Conditional Statements, Logical Operators, Code Blocks and Scope | ✅ |
-| 4 | [Rock Paper Scissors](./day_004_rock_paper_scissors//) | Randomisation and Python Lists | ✅ |
+| 4 | [Rock Paper Scissors](./day_004_rock_paper_scissors/) | Randomisation and Python Lists | ✅ |
+| 5 | [Password Generator](./day_005_password_generator/) | For Loops, Range and Code Blocks | ✅ |
 <!-- | ... | ... | ... |  ✅ | -->
 
 Click on each project name to access its directory and code.
