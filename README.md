@@ -22,6 +22,8 @@ Although I already have some experience with Python, I'm taking this course to:
 | 3 | [Treasure Island](./day_003_treasure_island/) | Conditional Statements, Logical Operators, Code Blocks and Scope | ✅ |
 | 4 | [Rock Paper Scissors](./day_004_rock_paper_scissors/) | Randomisation and Python Lists | ✅ |
 | 5 | [Password Generator](./day_005_password_generator/) | For Loops, Range and Code Blocks | ✅ |
+| 6 | [Escaping the Maze](./day_006_escaping_the_maze/) | Functions, While Loops | ✅ |
+| 7 | [Hangman](./day_007_hangman/) | Hangman Project | ✅ |
 <!-- | ... | ... | ... |  ✅ | -->
 
 Click on each project name to access its directory and code.
@@ -30,4 +32,4 @@ Click on each project name to access its directory and code.
 ## Learning Resources
 - [Course Link](https://www.udemy.com/course/100-days-of-code/)
 - [Python Documentation](https://docs.python.org/3/)
-- [Stack Overflow](https://stackoverflow.com/)
+- [Stack Overflow](https://stackoverflow.com/) 
