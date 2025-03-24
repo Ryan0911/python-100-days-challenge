@@ -1,7 +1,7 @@
 # pylint: disable=C0114, C0301
 import sys
 from utils.art import ArtHelper
-from utils.rps import RpsGame, Choice, Result
+from day_004_rock_paper_scissors.rps import RpsGame, Choice, Result
 
 art_helper = ArtHelper()
 rps_game = RpsGame()
