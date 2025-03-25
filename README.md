@@ -24,6 +24,7 @@ Although I already have some experience with Python, I'm taking this course to:
 | 5 | [Password Generator](./day_005_password_generator/) | For Loops, Range and Code Blocks | ✅ |
 | 6 | [Escaping the Maze](./day_006_escaping_the_maze/) | Functions, While Loops | ✅ |
 | 7 | [Hangman](./day_007_hangman/) | Hangman Project | ✅ |
+| 8 | [Caesar Cipher](./day_008_caesar_cipher/) | Functions with Inputs, Arguments, Parameters | ✅ |
 <!-- | ... | ... | ... |  ✅ | -->
 
 Click on each project name to access its directory and code.
